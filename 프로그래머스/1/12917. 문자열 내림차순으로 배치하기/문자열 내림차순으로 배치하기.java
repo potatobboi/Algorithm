@@ -7,9 +7,8 @@ class Solution {
         String[] str = s.split("");
         Arrays.sort(str, Collections.reverseOrder());
         
-        for (String a : str) {
-            answer += a;
-        }
+        for (String a : str)
+        answer += a;
         
         return answer;
     }
