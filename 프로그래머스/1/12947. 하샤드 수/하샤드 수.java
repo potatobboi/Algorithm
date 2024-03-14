@@ -8,7 +8,6 @@ class Solution {
             sum += num % 10;
             num /= 10;
         }
-        
         if (x % sum != 0) {
             answer = false;
         }
