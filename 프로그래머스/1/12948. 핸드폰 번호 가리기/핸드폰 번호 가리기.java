@@ -5,11 +5,12 @@ class Solution {
         
         int len = num.length;
         
-        for(int i = 0; i < len; i++) {
-            if(i < len - 4) 
+        for (int i = 0; i < len; i++) {
+            if (i < len - 4) {
                 answer += "*";
-            else
+            } else {
                 answer += num[i];
+            }
         }
         
         return answer;
